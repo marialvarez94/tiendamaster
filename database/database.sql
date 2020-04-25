@@ -13,7 +13,7 @@ CONSTRAINT pk_usuarios PRIMARY KEY(id),
 CONSTRAINT uq_email UNIQUE(email)  
 )ENGINE=InnoDb;
 
-INSERT INTO usuarios VALUES(NULL, 'Admin', 'Admin', 'admin@admin.com', 'contraseña', 'admin', null);
+INSERT INTO usuarios VALUES(NULL, 'Admin', 'Admin', 'admin@admin.com', '123456', 'admin', null);
 
 CREATE TABLE categorias(
 id              int(255) auto_increment not null,
@@ -21,10 +21,11 @@ nombre          varchar(100) not null,
 CONSTRAINT pk_categorias PRIMARY KEY(id) 
 )ENGINE=InnoDb;
 
-INSERT INTO categorias VALUES(null, 'Manga corta');
-INSERT INTO categorias VALUES(null, 'Tirantes');
-INSERT INTO categorias VALUES(null, 'Manga larga');
-INSERT INTO categorias VALUES(null, 'Sudaderas');
+INSERT INTO categorias VALUES(null, 'Construcción');
+INSERT INTO categorias VALUES(null, 'Equipos');
+INSERT INTO categorias VALUES(null, 'Herramientas');
+INSERT INTO categorias VALUES(null, 'Hogar');
+INSERT INTO categorias VALUES(null, 'Tecnologia');
 
 CREATE TABLE productos(
 id              int(255) auto_increment not null,

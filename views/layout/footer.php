@@ -3,7 +3,8 @@
 
 			<!-- PIE DE PÁGINA -->
 			<footer id="footer">
-				<p>Desarrollado por María Álvarez &copy; <?= date('Y') ?></p>
+				<img src="<?=base_url?>assets/img/pie.jpg" alt="Ferreteria Samir" />
+				<p>Ferreteria Samir &copy; <?= date('Y') ?></p>
 			</footer>
 		</div>
 	</body>

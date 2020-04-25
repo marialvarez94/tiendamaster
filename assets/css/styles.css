@@ -6,9 +6,10 @@
     font-family: sans-serif, Helvetica, Arial;
 }
 
-body{
+/* body{
     background: url(../img/bg.png);
-}
+    
+} */
 
 a{
     color: #01B1EA;
@@ -47,7 +48,7 @@ td{
 
 /*CONTAINER*/
 #container{
-   width: 85%;
+   width: 100%;
    margin: 0px auto;
    box-shadow: 0px 0px 10px gray;
    background: white;
@@ -57,7 +58,7 @@ td{
 
 #header{
     height: 145px;
-    background: #F0F0F0;
+    background: #FAEA4C;
 }
 
 #logo{
@@ -87,8 +88,9 @@ td{
 }
 
 #logo a:hover{
-    text-shadow: 0px 1px 1px #222222, 0px 0px 4px #01B1EA;
+    text-shadow: 0px 1px 1px #222222, 0px 0px 4px #FAEA4C;
 }
+
 
 /*MENU*/
 #menu{
@@ -96,7 +98,7 @@ td{
     background: #222;
     color: white;
     height: 55px;
-    border-bottom: 4px solid #01B1EA;
+    border-bottom: 4px solid #FAEA4C;
 }
 
 #menu ul{
@@ -365,8 +367,8 @@ button{
     text-align: center;
     padding-top:10px;
     padding-bottom: 10px;
-    color: white;
-    background: #222222;
+    color: black;
+    background: #FAEA4C;
     border-top: 4px solid #01B1EA;
 }
 

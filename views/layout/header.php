@@ -10,10 +10,10 @@
 			<!-- CABECERA -->
 			<header id="header">
 				<div id="logo">
-					<img src="<?=base_url?>assets/img/camiseta.png" alt="Camiseta Logo" />
-					<a href="<?=base_url?>">
+					<img src="<?=base_url?>assets/img/samir.jpg" alt="Ferreteria Samir" />
+					<!-- <a href="<?=base_url?>">
 						Tienda de ropa
-					</a>
+					</a> -->
 				</div>
 			</header>
 
@@ -31,5 +31,6 @@
 					<?php endwhile; ?>
 				</ul>
 			</nav>
+		
 
 			<div id="content">
